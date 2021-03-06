@@ -1,0 +1,19 @@
+<Defaults>
+  <Button width="100" height="100" fontSize="75" onClick="onClick" fontStyle="Bold"/>
+  <Text width="200" height="200" fontSize="150" fontStyle="Bold"/>
+</Defaults>
+
+<Panel id="suit_buttons" position="0 -375 -200">
+  <Button id="3" offsetXY="-165 0">♥</Button>
+  <Button id="1" offsetXY="-55 0">♣</Button>
+  <Button id="2" offsetXY="55 0">♦</Button>
+  <Button id="4" offsetXY="165 0">♠</Button>
+</Panel>
+
+<Panel position="0 -375 -200">
+  <Text id="suit_text" offsetXY="0 0">♥</Text>
+</Panel>
+
+<Panel position="0 -375 -200">
+  <Text id="crank_text" color="#ffff00" offsetXY="0 0">0</Text>
+</Panel>
